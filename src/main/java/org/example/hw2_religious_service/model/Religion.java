@@ -1,4 +1,4 @@
-package org.example.hw2_religious_service;
+package org.example.hw2_religious_service.model;
 
 public enum Religion {
     CHRISTIANITY("Христианство"),

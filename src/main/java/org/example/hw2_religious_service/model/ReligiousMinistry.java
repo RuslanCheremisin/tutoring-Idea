@@ -1,19 +1,17 @@
-package org.example.hw2_religious_service;
+package org.example.hw2_religious_service.model;
 
 import org.example.util.Util;
 
-import java.time.LocalTime;
-
-public class ReligiousService {
+public class ReligiousMinistry {
     private String name;
     private Religion religion;
     private Integer duration;
     private Long price;
 
-    public ReligiousService(String name,
-                            Religion religion,
-                            Integer duration,
-                            Long price) {
+    public ReligiousMinistry(String name,
+                             Religion religion,
+                             Integer duration,
+                             Long price) {
         this.name = (String) Util.checkIfNull(name, "name");
         this.religion = (Religion) Util.checkIfNull(religion, "religion");
         Util.checkIfNull(duration, "duration");

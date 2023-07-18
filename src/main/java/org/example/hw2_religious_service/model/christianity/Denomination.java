@@ -1,4 +1,4 @@
-package org.example.hw2_religious_service.christianity;
+package org.example.hw2_religious_service.model.christianity;
 
 public enum Denomination {
     ORTHODOX("Православие"),

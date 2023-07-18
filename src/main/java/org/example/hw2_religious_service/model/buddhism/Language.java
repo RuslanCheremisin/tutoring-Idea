@@ -1,4 +1,4 @@
-package org.example.hw2_religious_service.buddhism;
+package org.example.hw2_religious_service.model.buddhism;
 
 public enum Language {
     TIBETAN("Тибетский"),
