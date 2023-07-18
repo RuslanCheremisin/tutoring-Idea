@@ -16,7 +16,6 @@ public class BuddhistMinistryServiceImpl implements ReligiousMinistryService {
     public void addService(ReligiousMinistry service) {
         serviceList.add((BuddhistReligiousMinistry) checkIfNull(service, "service"));
     }
-
     public List<ReligiousMinistry> getServices() {
         return List.copyOf(serviceList);
     }
@@ -32,5 +31,6 @@ public class BuddhistMinistryServiceImpl implements ReligiousMinistryService {
     public void performMeditation() {
         System.out.println("Let us meditate");
     }
+
 
 }

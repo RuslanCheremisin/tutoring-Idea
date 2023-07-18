@@ -7,7 +7,6 @@ public class ReligiousMinistry {
     private Religion religion;
     private Integer duration;
     private Long price;
-
     public ReligiousMinistry(String name,
                              Religion religion,
                              Integer duration,

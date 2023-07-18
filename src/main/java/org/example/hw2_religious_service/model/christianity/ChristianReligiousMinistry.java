@@ -18,7 +18,6 @@ public class ChristianReligiousMinistry extends ReligiousMinistry {
     public Denomination getDenomination() {
         return denomination;
     }
-
     public void setDenomination(Denomination denomination) {
         this.denomination = (Denomination) Util.checkIfNull(denomination, "denomination");
     }

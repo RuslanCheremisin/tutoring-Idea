@@ -31,4 +31,5 @@ public class ChristianMinistryServiceImpl implements ReligiousMinistryService {
     public void performBaptism() {
         System.out.println("In the name of Father, Son and Holy Spirit, you will be baptised");
     }
+
 }

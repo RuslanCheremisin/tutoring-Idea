@@ -33,5 +33,4 @@ public class IslamicMinistryServiceImpl implements ReligiousMinistryService {
         System.out.println("Join the pilgrims...");
     }
 
-
 }

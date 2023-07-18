@@ -15,7 +15,6 @@ public class IslamicReligiousMinistry extends ReligiousMinistry {
         this.location = (String) Util.checkIfNull(location, location);
     }
 
-
     public String getLocation() {
         return location;
     }

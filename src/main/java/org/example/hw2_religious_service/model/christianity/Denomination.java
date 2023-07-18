@@ -6,7 +6,6 @@ public enum Denomination {
     EVANGELIC("Протестанты"),
     COPTIC("Копты");
     private String translation;
-
     Denomination(String translation) {
         this.translation = translation;
     }

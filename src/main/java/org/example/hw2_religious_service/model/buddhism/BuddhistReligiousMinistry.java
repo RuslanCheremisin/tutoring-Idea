@@ -15,5 +15,4 @@ public class BuddhistReligiousMinistry extends ReligiousMinistry {
         this.language = (Language) Util.checkIfNull(language, "language");
     }
 
-
 }

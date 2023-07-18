@@ -17,5 +17,4 @@ public interface ReligiousMinistryService {
     Long getTotalServicePrice();
 
     Integer getTotalServiceDuration();
-
 }

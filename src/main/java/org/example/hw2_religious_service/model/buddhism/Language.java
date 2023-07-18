@@ -11,7 +11,6 @@ public enum Language {
     RUSSIAN("Русский");
 
     private String translation;
-
     Language(String translation) {
         this.translation = translation;
     }

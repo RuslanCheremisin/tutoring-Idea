@@ -32,7 +32,6 @@ public class Main {
         service = new BuddhistReligiousMinistry("2nd buddhist service", 720, 500L, Language.NEPALI);
         buddhistMinistryService.addService(service);
 
-
         System.out.println(christianMinistryService.getServices());
         System.out.println(christianMinistryService.getTotalServiceDuration());
         System.out.println(christianMinistryService.getTotalServicePrice());
@@ -43,11 +42,11 @@ public class Main {
         System.out.println(islamicMinistryService.getTotalServicePrice());
         islamicMinistryService.performHajj();
 
-
         System.out.println(buddhistMinistryService.getServices());
         System.out.println(buddhistMinistryService.getTotalServiceDuration());
         System.out.println(buddhistMinistryService.getTotalServicePrice());
         buddhistMinistryService.performMeditation();
+
 
 // HW 1
 //        Zoo zoo = new Zoo();
