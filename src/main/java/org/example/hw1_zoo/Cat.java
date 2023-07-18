@@ -1,4 +1,4 @@
-package org.example;
+package org.example.hw1_zoo;
 
 public class Cat extends Animal{
 	public void makeSound() {
