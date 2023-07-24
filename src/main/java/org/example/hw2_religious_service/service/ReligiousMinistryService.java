@@ -8,7 +8,6 @@ import java.util.List;
 import static org.example.util.Util.checkIfNull;
 
 public interface ReligiousMinistryService {
-    List<ReligiousMinistry> serviceList = new ArrayList<>();
 
     void addService(ReligiousMinistry service);
 
