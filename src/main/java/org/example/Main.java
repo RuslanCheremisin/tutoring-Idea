@@ -9,43 +9,11 @@ import org.example.hw2_religious_service.model.christianity.ChristianReligiousMi
 import org.example.hw2_religious_service.model.christianity.Denomination;
 import org.example.hw2_religious_service.model.islam.IslamicReligiousMinistry;
 import org.example.hw2_religious_service.service.impl.IslamicMinistryServiceImpl;
-import org.example.hw3_tv.model.TV;
-import org.example.hw3_tv.model.TVChannel;
-import org.example.hw3_tv.model.TVRemote;
+
 
 public class Main {
     public static void main(String[] args) {
 
-//  HW 3
-
-        TVChannel ort = new TVChannel("ОРТ", 1);
-        TVChannel rtr = new TVChannel("РТР", 2);
-        TVChannel renTV = new TVChannel("РенТВ", 3);
-        TVChannel mtv = null;
-
-        TVRemote remote = new TVRemote();
-        remote.addChannel(ort);
-        remote.addChannel(rtr);
-        remote.addChannel(renTV);
-//        remote.addChannel(mtv);
-//        remote.addChannel(ort);
-
-        remote.showAddedChannels();
-
-        TV hitachi = new TV(ort, remote);
-
-        remote.setCurrentChannel(ort.getChannelNumber());
-        hitachi.showCurrentChannel();
-
-        remote.setCurrentChannel(rtr.getChannelNumber());
-        hitachi.showCurrentChannel();
-
-        remote.setCurrentChannel(renTV.getChannelNumber());
-        hitachi.showCurrentChannel();
-
-        remote.removeChannel(renTV);
-
-        hitachi.showCurrentChannel();
 
 // HW 2
 //        ChristianMinistryServiceImpl christianMinistryService = new ChristianMinistryServiceImpl();
